@@ -1,0 +1,33 @@
+PDF Analysis Results
+====================
+
+Session | Test Pages | Transcript Pages | Test Images
+--------|-----------|------------------|------------
+2021-01 | 29 | 8 | 36
+2021-05 | 28 | 8 | 36
+2021-06 | 28 | 8 | 37
+2021-11 | 28 | 8 | 36
+2022-02 | 29 | 7 | 23
+2022-03 | 29 | 7 | 25
+2022-06 | 28 | 7 | 25
+2022-11 | 28 | 7 | 25
+2023-02 | 29 | 8 | 25
+2023-04 | 29 | 8 | 26
+2023-06 | 28 | 7 | 23
+2023-11 | 29 | 8 | 25
+2024-02 | 29 | 8 | 23
+2024-04 | 29 | 8 | 11
+2024-06 | 30 | 8 | 23
+
+Key Observations:
+-----------------
+- Test PDFs: Consistently 28-30 pages across all sessions
+- Transcript PDFs: Consistently 7-8 pages across all sessions
+- Test Images: 11-37 images per PDF
+  * 2024-04 has notably fewer embedded images (11)
+  * 2021 sessions (36-37 images) have most images
+  * All show presence of embedded images (no pure text-only formats)
+- All files contain text layers (no pure image-based scans)
+- Character count extraction pending in background processing
+
+Source URL: https://certyfikatpolski.pl/wp-content/uploads/

@@ -1,0 +1,1678 @@
+window.EXAMS = window.EXAMS || {};
+window.EXAMS["_example"] = {
+ "schemaVersion": 1,
+ "id": "_example",
+ "meta": {
+  "level": "B1",
+  "labelPdf": "przykład (dev)",
+  "examDates": "",
+  "maxPoints": 120,
+  "notes": [
+   "Fixture z docs/example-2024-02.json + zadania [SYNTH]"
+  ],
+  "sources": {
+   "audio": "sources/2024-02/audio.mp3"
+  }
+ },
+ "audio": {
+  "src": "sources/2024-02/audio.mp3",
+  "duration": 1599.9
+ },
+ "sections": [
+  {
+   "id": "listening",
+   "title": "Rozumienie ze słuchu",
+   "maxPoints": 30,
+   "timeMinutes": 30,
+   "taskCount": 4,
+   "tasks": [
+    {
+     "id": "l1",
+     "number": "I",
+     "type": "mc",
+     "grading": "auto",
+     "instruction": "I. Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem. Uwaga! Nagranie zostanie odtworzone tylko jeden raz.",
+     "prompt": "Proszę zaznaczyć właściwe odpowiedzi.",
+     "pointsFormula": "14 x 0,5 p.",
+     "pointsPerItem": 0.5,
+     "maxPoints": 7,
+     "plays": 1,
+     "pdfPage": 3,
+     "audio": {
+      "announce": [
+       107.8,
+       123.9
+      ],
+      "plays": [
+       {
+        "start": 134.2,
+        "end": 315.9
+       }
+      ],
+      "items": [
+       {
+        "ref": "l1.ex",
+        "start": 134.2,
+        "end": 144.5
+       },
+       {
+        "ref": "l1.1",
+        "start": 150.9,
+        "end": 156.0
+       },
+       {
+        "ref": "l1.2",
+        "start": 162.4,
+        "end": 167.7
+       },
+       {
+        "ref": "l1.3",
+        "start": 174.2,
+        "end": 180.5
+       },
+       {
+        "ref": "l1.4",
+        "start": 186.8,
+        "end": 191.7
+       },
+       {
+        "ref": "l1.5",
+        "start": 198.1,
+        "end": 204.6
+       },
+       {
+        "ref": "l1.6",
+        "start": 210.9,
+        "end": 217.2
+       },
+       {
+        "ref": "l1.7",
+        "start": 223.5,
+        "end": 229.2
+       },
+       {
+        "ref": "l1.8",
+        "start": 235.6,
+        "end": 241.7
+       },
+       {
+        "ref": "l1.9",
+        "start": 248.1,
+        "end": 253.3
+       },
+       {
+        "ref": "l1.10",
+        "start": 259.7,
+        "end": 265.9
+       },
+       {
+        "ref": "l1.11",
+        "start": 272.3,
+        "end": 278.7
+       },
+       {
+        "ref": "l1.12",
+        "start": 285.1,
+        "end": 291.1
+       },
+       {
+        "ref": "l1.13",
+        "start": 297.5,
+        "end": 303.5
+       },
+       {
+        "ref": "l1.14",
+        "start": 309.8,
+        "end": 315.9
+       }
+      ],
+      "source": "auto-silencedetect",
+      "verified": false
+     },
+     "example": {
+      "id": "l1.ex",
+      "prompt": "Ta wypowiedź oznacza",
+      "options": [
+       {
+        "id": "a",
+        "text": "komplement."
+       },
+       {
+        "id": "b",
+        "text": "porównanie."
+       },
+       {
+        "id": "c",
+        "text": "dezaprobatę."
+       }
+      ],
+      "answer": "a",
+      "shown": true,
+      "transcript": {
+       "sp": "K",
+       "t": "Świetnie pasuje ci ta skórzana kurtka."
+      }
+     },
+     "items": [
+      {
+       "id": "l1.1",
+       "number": 1,
+       "prompt": "Ta wypowiedź oznacza",
+       "options": [
+        {
+         "id": "a",
+         "text": "zgodę na propozycję."
+        },
+        {
+         "id": "b",
+         "text": "odrzucenie propozycji."
+        },
+        {
+         "id": "c",
+         "text": "brak decyzji."
+        }
+       ],
+       "answer": "b",
+       "transcript": {
+        "sp": "M",
+        "t": "Z przykrością, ale muszę ci odmówić."
+       }
+      },
+      {
+       "id": "l1.2",
+       "number": 2,
+       "prompt": "Ta wypowiedź jest pytaniem o",
+       "options": [
+        {
+         "id": "a",
+         "text": "czas."
+        },
+        {
+         "id": "b",
+         "text": "drogę."
+        },
+        {
+         "id": "c",
+         "text": "transport."
+        }
+       ],
+       "answer": "b",
+       "transcript": {
+        "sp": "K",
+        "t": "Czy wie pan, jak dojść do urzędu miasta?"
+       }
+      },
+      {
+       "id": "l1.3",
+       "number": 3,
+       "prompt": "Ta wypowiedź oznacza, że pociąg",
+       "options": [
+        {
+         "id": "a",
+         "text": "przyjedzie niezgodnie z rozkładem."
+        },
+        {
+         "id": "b",
+         "text": "będzie dokładnie o czasie."
+        },
+        {
+         "id": "c",
+         "text": "będzie kwadrans stał na stacji."
+        }
+       ],
+       "answer": "a",
+       "transcript": {
+        "sp": "M",
+        "t": "Pociąg do Wrocławia jest opóźniony 15 minut."
+       }
+      },
+      {
+       "id": "l1.4",
+       "number": 4,
+       "prompt": "Ta wypowiedź oznacza",
+       "options": [
+        {
+         "id": "a",
+         "text": "zadowolenie."
+        },
+        {
+         "id": "b",
+         "text": "zainteresowanie."
+        },
+        {
+         "id": "c",
+         "text": "krytykę."
+        }
+       ],
+       "answer": "c",
+       "transcript": {
+        "sp": "K",
+        "t": "Jak mogłeś jej to wszystko powiedzieć!"
+       }
+      },
+      {
+       "id": "l1.5",
+       "number": 5,
+       "prompt": "Ta wypowiedź oznacza, że podczas wykładu",
+       "options": [
+        {
+         "id": "a",
+         "text": "można korzystać z telefonów."
+        },
+        {
+         "id": "b",
+         "text": "nie wolno używać telefonów."
+        },
+        {
+         "id": "c",
+         "text": "trzeba włączyć telefon."
+        }
+       ],
+       "answer": "b",
+       "transcript": {
+        "sp": "M",
+        "t": "Podczas wykładu obowiązuje zakaz używania telefonów."
+       }
+      },
+      {
+       "id": "l1.6",
+       "number": 6,
+       "prompt": "Ta wypowiedź jest typowa",
+       "options": [
+        {
+         "id": "a",
+         "text": "u szewca."
+        },
+        {
+         "id": "b",
+         "text": "u fryzjera."
+        },
+        {
+         "id": "c",
+         "text": "u krawca."
+        }
+       ],
+       "answer": "c",
+       "transcript": {
+        "sp": "K",
+        "t": "Chciałabym skrócić tę spódnicę o 6 cm."
+       }
+      },
+      {
+       "id": "l1.7",
+       "number": 7,
+       "prompt": "Ta wypowiedź jest typowa dla",
+       "options": [
+        {
+         "id": "a",
+         "text": "rodzica."
+        },
+        {
+         "id": "b",
+         "text": "nauczyciela."
+        },
+        {
+         "id": "c",
+         "text": "brata."
+        }
+       ],
+       "answer": "a",
+       "transcript": {
+        "sp": "M",
+        "t": "Synku, odrobiłeś już zadanie domowe?"
+       }
+      },
+      {
+       "id": "l1.8",
+       "number": 8,
+       "prompt": "Ta wypowiedź oznacza, że",
+       "options": [
+        {
+         "id": "a",
+         "text": "pakiet jest dodatkowo płatny."
+        },
+        {
+         "id": "b",
+         "text": "abonament jest darmowy."
+        },
+        {
+         "id": "c",
+         "text": "pakiet jest wliczony w opłaty."
+        }
+       ],
+       "answer": "c",
+       "transcript": {
+        "sp": "K",
+        "t": "Pakiet dodatkowych minut jest w cenie abonamentu."
+       }
+      },
+      {
+       "id": "l1.9",
+       "number": 9,
+       "prompt": "Ta wypowiedź oznacza",
+       "options": [
+        {
+         "id": "a",
+         "text": "prośbę."
+        },
+        {
+         "id": "b",
+         "text": "zaproszenie."
+        },
+        {
+         "id": "c",
+         "text": "gratulacje."
+        }
+       ],
+       "answer": "a",
+       "transcript": {
+        "sp": "M",
+        "t": "Poszedłbyś wreszcie z psem na spacer!"
+       }
+      },
+      {
+       "id": "l1.10",
+       "number": 10,
+       "prompt": "Ta wypowiedź jest typowa",
+       "options": [
+        {
+         "id": "a",
+         "text": "w czasie podróży."
+        },
+        {
+         "id": "b",
+         "text": "w czasie wizyty u lekarza."
+        },
+        {
+         "id": "c",
+         "text": "w sklepie turystycznym."
+        }
+       ],
+       "answer": "a",
+       "transcript": {
+        "sp": "K",
+        "t": "Bagaż podręczny należy umieścić pod siedzeniem."
+       }
+      },
+      {
+       "id": "l1.11",
+       "number": 11,
+       "prompt": "Ta wypowiedź oznacza",
+       "options": [
+        {
+         "id": "a",
+         "text": "obojętność."
+        },
+        {
+         "id": "b",
+         "text": "znudzenie."
+        },
+        {
+         "id": "c",
+         "text": "zaciekawienie."
+        }
+       ],
+       "answer": "c",
+       "transcript": {
+        "sp": "M",
+        "t": "Niesamowita historia! Co było potem?"
+       }
+      },
+      {
+       "id": "l1.12",
+       "number": 12,
+       "prompt": "Ta wypowiedź to fragment",
+       "options": [
+        {
+         "id": "a",
+         "text": "prognozy pogody."
+        },
+        {
+         "id": "b",
+         "text": "porady lekarskiej."
+        },
+        {
+         "id": "c",
+         "text": "audycji sportowej."
+        }
+       ],
+       "answer": "b",
+       "transcript": {
+        "sp": "K",
+        "t": "Proszę brać leki przeciwgorączkowe i odpoczywać."
+       }
+      },
+      {
+       "id": "l1.13",
+       "number": 13,
+       "prompt": "Ta wypowiedź oznacza, że klient chce",
+       "options": [
+        {
+         "id": "a",
+         "text": "zestaw z rybą."
+        },
+        {
+         "id": "b",
+         "text": "potrawę z mięsem."
+        },
+        {
+         "id": "c",
+         "text": "danie wegetariańskie."
+        }
+       ],
+       "answer": "c",
+       "transcript": {
+        "sp": "M",
+        "t": "Czy mają państwo w ofercie dania warzywne?"
+       }
+      },
+      {
+       "id": "l1.14",
+       "number": 14,
+       "prompt": "Ta wypowiedź oznacza, że kurs jest dla osób",
+       "options": [
+        {
+         "id": "a",
+         "text": "które mają co najmniej 18 lat."
+        },
+        {
+         "id": "b",
+         "text": "które mają mniej niż 18 lat."
+        },
+        {
+         "id": "c",
+         "text": "bez względu na wiek."
+        }
+       ],
+       "answer": "a",
+       "transcript": {
+        "sp": "K",
+        "t": "Na kurs zapraszamy wszystkie osoby pełnoletnie."
+       }
+      }
+     ]
+    },
+    {
+     "id": "l2",
+     "number": "II",
+     "type": "match",
+     "grading": "auto",
+     "plays": 2,
+     "instruction": "II. [SYNTH] Dopasuj zdjęcia do tekstów.",
+     "pointsFormula": "2 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 2,
+     "images": [
+      {
+       "id": "A",
+       "src": "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80'%3E%3Crect width='120' height='80' fill='%239bc'/%3E%3Ctext x='10' y='45' font-size='22'%3EFOTO%3C/text%3E%3C/svg%3E",
+       "alt": "A"
+      },
+      {
+       "id": "B",
+       "src": "img/does-not-exist.jpg",
+       "alt": "B (brak pliku)"
+      }
+     ],
+     "audio": {
+      "announce": [
+       326.2,
+       342.2
+      ],
+      "plays": [
+       {
+        "start": 352.5,
+        "end": 461.3
+       },
+       {
+        "start": 507.1,
+        "end": 616.0
+       }
+      ],
+      "items": [
+       {
+        "ref": "l2.1",
+        "start": 372.6,
+        "end": 382.2
+       },
+       {
+        "ref": "l2.2",
+        "start": 388.8,
+        "end": 398.5
+       }
+      ]
+     },
+     "options": [
+      {
+       "id": "1",
+       "text": "tekst 1"
+      },
+      {
+       "id": "2",
+       "text": "tekst 2"
+      }
+     ],
+     "transcript": {
+      "text": "[synth] transkrypcja całości."
+     },
+     "items": [
+      {
+       "id": "l2.1",
+       "number": 1,
+       "label": "A",
+       "image": "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80'%3E%3Crect width='120' height='80' fill='%239bc'/%3E%3Ctext x='10' y='45' font-size='22'%3EFOTO%3C/text%3E%3C/svg%3E",
+       "answer": "1",
+       "transcript": {
+        "sp": "K",
+        "t": "Tekst pierwszy."
+       }
+      },
+      {
+       "id": "l2.2",
+       "number": 2,
+       "label": "B",
+       "answer": "2"
+      }
+     ]
+    },
+    {
+     "id": "l4",
+     "number": "IV",
+     "type": "tf",
+     "grading": "auto",
+     "instruction": "IV. Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem. Uwaga! Nagranie zostanie odtworzone dwa razy.",
+     "prompt": "Proszę posłuchać informacji na temat aplikacji Pola i zaznaczyć: TAK – gdy zdanie jest zgodne z tekstem; NIE – gdy nie jest zgodne z tekstem.",
+     "pointsFormula": "6 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 6,
+     "plays": 2,
+     "pdfPage": 6,
+     "source": "Na podstawie: https://jedynka.polskieradio.pl/artykul/2671258,Kod-590-aplikacja-Pola-Jak-%C5%9Bwiadomie-kupowa%C4%87-polskie-produkty",
+     "audio": {
+      "announce": [
+       911.8,
+       927.7
+      ],
+      "plays": [
+       {
+        "start": 937.9,
+        "end": 1028.9
+       },
+       {
+        "start": 1074.7,
+        "end": 1165.8
+       }
+      ],
+      "pauseBetweenPlays": 45.8,
+      "source": "auto-silencedetect",
+      "verified": false
+     },
+     "transcript": {
+      "lines": [
+       {
+        "sp": "Dziennikarka",
+        "t": "Po co nam ta nowa aplikacja?"
+       },
+       {
+        "sp": "Programista",
+        "t": "Żeby sprawdzić, czy sok lub wędlina, które kupujemy, wyprodukowano w Polsce. Dzięki aplikacji Pola możemy zrobić to sami, wystarczy zeskanować kod kreskowy."
+       },
+       {
+        "sp": "Dziennikarka",
+        "t": "Jak działa aplikacja?"
+       },
+       {
+        "sp": "Programista",
+        "t": "To bardzo proste. Bierzemy na przykład jogurt, uruchamiamy aplikację w naszym smartfonie i skanujemy kod kreskowy. Po chwili możemy sprawdzić, czy producent jest z Polski lub czy płaci tu podatki."
+       },
+       {
+        "sp": "Dziennikarka",
+        "t": "Jak oceniacie produkty?"
+       },
+       {
+        "sp": "Programista",
+        "t": "Jest pięć kryteriów. Najwięcej punktów jest za wielkość polskiego kapitału, produkcję na terenie naszego kraju i prowadzenie tutaj badań naukowych. Najmniej za rejestrację firmy w Polsce."
+       },
+       {
+        "sp": "Dziennikarka",
+        "t": "Ile to kosztuje?"
+       },
+       {
+        "sp": "Programista",
+        "t": "Aplikacja jest całkowicie bezpłatna, zarówno dla firm, jak i dla użytkowników."
+       },
+       {
+        "sp": "Dziennikarka",
+        "t": "Tylko z aplikacją możemy sprawdzić, czy kupujemy polskie produkty?"
+       },
+       {
+        "sp": "Programista",
+        "t": "Nie, na przykład jedna z sieci sklepów drukuje takie informacje na paragonie – podaje na nim sumę, jaką ze sprzedaży otrzymają polscy producenci. Poza tym pomocny może być sam kod kreskowy. Trzy pierwsze liczby kodu: 590 oznaczają, że firma zarejestrowała się w Polsce, ale uwaga – nie ma gwarancji, że tutaj wyprodukowała produkt."
+       }
+      ]
+     },
+     "example": {
+      "id": "l4.ex",
+      "statement": "Aplikację skanujemy przy kasie.",
+      "answer": "NIE",
+      "shown": true
+     },
+     "items": [
+      {
+       "id": "l4.1",
+       "number": 1,
+       "statement": "Dzięki aplikacji możemy sprawdzić, z jakiego kraju pochodzi produkt.",
+       "answer": "NIE"
+      },
+      {
+       "id": "l4.2",
+       "number": 2,
+       "statement": "Aplikacja jest łatwa w obsłudze.",
+       "answer": "TAK"
+      },
+      {
+       "id": "l4.3",
+       "number": 3,
+       "statement": "Każdy produkt może otrzymać maksymalnie 5 punktów.",
+       "answer": "NIE"
+      },
+      {
+       "id": "l4.4",
+       "number": 4,
+       "statement": "Aplikacja jest darmowa dla klientów i producentów.",
+       "answer": "TAK"
+      },
+      {
+       "id": "l4.5",
+       "number": 5,
+       "statement": "Czasami z paragonu można dowiedzieć się, czy kupiliśmy jakieś polskie produkty.",
+       "answer": "TAK"
+      },
+      {
+       "id": "l4.6",
+       "number": 6,
+       "statement": "Początek kodu 590 oznacza, że firma produkuje towar w Polsce.",
+       "answer": "NIE"
+      }
+     ]
+    },
+    {
+     "id": "l5",
+     "number": "V",
+     "type": "matchMulti",
+     "grading": "auto",
+     "instruction": "V. Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem. Nagranie zostanie odtworzone dwa razy.",
+     "prompt": "Proszę wysłuchać wypowiedzi dotyczących uczestnictwa w wydarzeniach kulturalnych (1-5) i dopasować do ich opinie (A-D). Uwaga! Jedna osoba może wypowiadać więcej niż jedną opinię.",
+     "pointsFormula": "6 x 1 p.",
+     "pointsPerSlot": 1,
+     "maxPoints": 6,
+     "plays": 2,
+     "pdfPage": 7,
+     "audio": {
+      "announce": [
+       1176.2,
+       1192.2
+      ],
+      "plays": [
+       {
+        "start": 1202.4,
+        "end": 1338.0
+       },
+       {
+        "start": 1383.8,
+        "end": 1519.5
+       }
+      ],
+      "pauseBetweenPlays": 45.8,
+      "items": [
+       {
+        "ref": "p1",
+        "start": 1202.4,
+        "end": 1229.5
+       },
+       {
+        "ref": "p2",
+        "start": 1236.1,
+        "end": 1261.6
+       },
+       {
+        "ref": "p3",
+        "start": 1268.2,
+        "end": 1284.1
+       },
+       {
+        "ref": "p4",
+        "start": 1290.5,
+        "end": 1308.7
+       },
+       {
+        "ref": "p5",
+        "start": 1315.2,
+        "end": 1338.0
+       }
+      ],
+      "source": "auto-silencedetect",
+      "verified": false
+     },
+     "persons": [
+      {
+       "id": "1",
+       "label": "osoba 1"
+      },
+      {
+       "id": "2",
+       "label": "osoba 2"
+      },
+      {
+       "id": "3",
+       "label": "osoba 3"
+      },
+      {
+       "id": "4",
+       "label": "osoba 4"
+      },
+      {
+       "id": "5",
+       "label": "osoba 5"
+      }
+     ],
+     "example": {
+      "id": "l5.ex",
+      "statement": "chodzi na premiery kinowe.",
+      "answer": [
+       "3"
+      ],
+      "shown": true
+     },
+     "statements": [
+      {
+       "id": "l5.A",
+       "letter": "A",
+       "text": "korzysta z darmowych ofert.",
+       "slots": 2,
+       "answer": [
+        "1",
+        "4"
+       ],
+       "anyOrder": true,
+       "starred": true
+      },
+      {
+       "id": "l5.B",
+       "letter": "B",
+       "text": "chodzi na spotkania z pisarzami.",
+       "slots": 1,
+       "answer": [
+        "5"
+       ],
+       "anyOrder": true,
+       "starred": false
+      },
+      {
+       "id": "l5.C",
+       "letter": "C",
+       "text": "dzieli swoją pasję z bliskimi.",
+       "slots": 2,
+       "answer": [
+        "1",
+        "3"
+       ],
+       "anyOrder": true,
+       "starred": true
+      },
+      {
+       "id": "l5.D",
+       "letter": "D",
+       "text": "uczestniczy w zagranicznych wydarzeniach kulturalnych.",
+       "slots": 1,
+       "answer": [
+        "2"
+       ],
+       "anyOrder": true,
+       "starred": false
+      }
+     ],
+     "keyNote": "*kolejność odpowiedzi dowolna",
+     "transcript": {
+      "lines": [
+       {
+        "sp": "Osoba 1 (M)",
+        "t": "Raz w tygodniu w konkretny dzień mogę odwiedzić wybrane muzeum lub galerię i nie płacić za bilet. A raz w roku podczas nocy muzeów niemal wszystkie instytucje kultury w Polsce otwierają swoje drzwi dla zwiedzających. Wtedy razem z moją rodziną oglądam ciekawe wystawy."
+       },
+       {
+        "sp": "Osoba 2 (M)",
+        "t": "Lubię oglądać filmy, ale nie w multipleksach. Wolę małe sale kinowe, dlatego wybieram kameralne festiwale, podczas których prezentowane są filmy z określonego gatunku lub z określonego kraju. Jeżdżę też na festiwale filmowe za granicę między innymi do Cannes i do Berlina, skąd przywożę niezapomniane wrażenia!"
+       },
+       {
+        "sp": "Osoba 3 (K)",
+        "t": "Uwielbiam kino. Jestem na bieżąco z każdym nowym tytułem, ponieważ często chodzę na pokazy premierowe. Jeśli dowiem się, że coś nowego wchodzi na ekrany, to od razu kupuję bilety dla siebie i przyjaciółki."
+       },
+       {
+        "sp": "Osoba 4 (K)",
+        "t": "Lubię muzykę klasyczną i często jej słucham. Chciałabym chodzić do filharmonii lub opery, ale ceny biletów są za wysokie. Na szczęście w parku, gdzie spaceruję, mogę latem bezpłatnie słuchać muzyki Chopina na żywo."
+       },
+       {
+        "sp": "Osoba 5 (K)",
+        "t": "Często uczestniczę w spotkaniach autorskich, które są organizowane przez biblioteki lub domy kultury w moim mieście. Ponadto szukam imprez dla fanów literatury. Targi książki w dużych miastach w Polsce przyciągają wielu miłośników książek, którzy mogą spotkać tam ulubionych autorów."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Rozumienie tekstów pisanych",
+   "maxPoints": 30,
+   "timeMinutes": 40,
+   "taskCount": 5,
+   "tasks": [
+    {
+     "id": "r1",
+     "number": "I",
+     "type": "mc",
+     "grading": "auto",
+     "instruction": "I. [SYNTH] Proszę przeczytać teksty i zaznaczyć właściwe odpowiedzi.",
+     "pointsFormula": "2 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 2,
+     "example": {
+      "id": "r1.ex",
+      "passage": {
+       "text": "Sklep jest czynny od 8 do 20.",
+       "source": "Na podstawie: http://example.test"
+      },
+      "prompt": "Z tego tekstu wynika, że sklep",
+      "options": [
+       {
+        "id": "a",
+        "text": "jest zamknięty."
+       },
+       {
+        "id": "b",
+        "text": "działa cały dzień."
+       },
+       {
+        "id": "c",
+        "text": "nie pracuje w nocy."
+       }
+      ],
+      "answer": "c",
+      "shown": true
+     },
+     "items": [
+      {
+       "id": "r1.1",
+       "number": 1,
+       "passage": {
+        "text": "Pociąg do Gdyni odjeżdża z peronu 2.",
+        "source": "Na podstawie: http://example.test"
+       },
+       "prompt": "Z tego tekstu wynika, że pociąg",
+       "options": [
+        {
+         "id": "a",
+         "text": "jedzie do Gdańska."
+        },
+        {
+         "id": "b",
+         "text": "odjeżdża z peronu drugiego."
+        },
+        {
+         "id": "c",
+         "text": "jest spóźniony."
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "r1.2",
+       "number": 2,
+       "passage": "Basen będzie zamknięty w poniedziałek.",
+       "prompt": "Z tego tekstu wynika, że basen",
+       "options": [
+        {
+         "id": "a",
+         "text": "w poniedziałek nie działa."
+        },
+        {
+         "id": "b",
+         "text": "jest otwarty cały tydzień."
+        },
+        {
+         "id": "c",
+         "text": "jest nieczynny we wtorek."
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "r2",
+     "number": "II",
+     "type": "tf",
+     "grading": "auto",
+     "instruction": "II. [SYNTH] Proszę zaznaczyć TAK lub NIE.",
+     "pointsFormula": "2 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 2,
+     "passage": {
+      "title": "Tekst o kocie",
+      "text": "Kot śpi długo.\n\nKot lubi mleko."
+     },
+     "example": {
+      "id": "r2.ex",
+      "statement": "Kot jest psem.",
+      "answer": "NIE",
+      "shown": true
+     },
+     "items": [
+      {
+       "id": "r2.1",
+       "number": 1,
+       "statement": "Kot dużo śpi.",
+       "answer": "TAK"
+      },
+      {
+       "id": "r2.2",
+       "number": 2,
+       "statement": "Kot nie lubi mleka.",
+       "answer": "NIE"
+      }
+     ]
+    },
+    {
+     "id": "r3",
+     "number": "III",
+     "type": "gapMatch",
+     "grading": "auto",
+     "instruction": "III. [SYNTH] Proszę dopasować fragmenty (A-D) do luk.",
+     "pointsFormula": "3 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 3,
+     "passage": "Wczoraj {{ex}} Potem {{1}} Następnie {{2}} Na koniec {{3}}",
+     "options": [
+      {
+       "id": "A",
+       "text": "poszliśmy do kina."
+      },
+      {
+       "id": "B",
+       "text": "zjedliśmy obiad."
+      },
+      {
+       "id": "C",
+       "text": "wróciliśmy do domu."
+      },
+      {
+       "id": "D",
+       "text": "kupiliśmy bilety."
+      }
+     ],
+     "example": {
+      "gap": "ex",
+      "answer": "D"
+     },
+     "items": [
+      {
+       "id": "r3.1",
+       "gap": "1",
+       "number": 1,
+       "answer": "A"
+      },
+      {
+       "id": "r3.2",
+       "gap": "2",
+       "number": 2,
+       "answer": "B"
+      },
+      {
+       "id": "r3.3",
+       "gap": "3",
+       "number": 3,
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "id": "r4",
+     "number": "IV",
+     "type": "match",
+     "grading": "auto",
+     "instruction": "IV. [SYNTH] Proszę dopasować tytuły do akapitów (jeden zbędny).",
+     "heading": "Zwierzęta domowe",
+     "pointsFormula": "2 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 2,
+     "options": [
+      {
+       "id": "A",
+       "text": "Akapit o psach."
+      },
+      {
+       "id": "B",
+       "text": "Akapit o kotach."
+      },
+      {
+       "id": "C",
+       "text": "Akapit o rybach."
+      }
+     ],
+     "example": {
+      "prompt": "Pies najlepszy przyjaciel",
+      "answer": "A"
+     },
+     "items": [
+      {
+       "id": "r4.1",
+       "number": 1,
+       "prompt": "Domowy mruczek",
+       "answer": "B"
+      },
+      {
+       "id": "r4.2",
+       "number": 2,
+       "prompt": "Akwarium",
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "id": "r5",
+     "number": "V",
+     "type": "clozeChoice",
+     "grading": "auto",
+     "instruction": "V. Proszę – zgodnie z przykładem – podkreślić najlepszą spośród możliwości podanych w nawiasach.",
+     "pointsFormula": "10 x 0,5 p.",
+     "pointsPerItem": 0.5,
+     "maxPoints": 5,
+     "pdfPage": 14,
+     "title": "Najlepsza komedia",
+     "source": "Na podstawie: https://culture.pl/pl/dzielo/sami-swoi-rez-sylwester-checinski",
+     "passage": "„Sami swoi” to ulubiona komedia Polaków i wciąż {{ex}} na liście najpopularniejszych polskich filmów. Produkcja powstała w 1967 roku, a jej {{1}} był Sylwester Chęciński. Film o konflikcie dwóch rodzin zaczyna się od przyjazdu do ojczyzny Jaśka „Johna” Pawlaka, który dawno temu {{2}} do Stanów Zjednoczonych. W czasie jego nieobecności w rodzinnej wsi {{3}} się zmieniło. Spotkanie mężczyzny z bratem Kazimierzem jest pełne radości, ale wesoły nastrój {{4}} się kończy. A wszystko z powodu sąsiada – Kargula.\n\nInspiracją do napisania fabuły było samo życie. Kiedy scenarzysta, Andrzej Mularczyk, opisywał losy dwóch wiejskich rodzin, {{5}} historię swojego wujka.\n\n{{6}} konfliktu między sąsiadami jest w komediach częstym motywem. Bohaterowie „Samych swoich” {{7}} o wszystko, a symbolem niezgody jest płot pomiędzy ich domami. Nawet widzowie, którzy nie są {{8}} filmu, uważają, że opowieść o Kargulach i Pawlakach stała się częścią kultury polskiej. Dużą {{9}} miały też dwie kontynuacje komedii – „Nie ma mocnych” i „Kochaj albo rzuć”. Seria jest tak lubiana, że na festiwalu filmów komediowych, który jest organizowany {{10}} na Dolnym Śląsku, co roku można obejrzeć te filmy.",
+     "blanks": [
+      {
+       "id": "ex",
+       "example": true,
+       "options": [
+        "występuje",
+        "leży",
+        "znajduje się"
+       ],
+       "answer": "znajduje się"
+      },
+      {
+       "id": "1",
+       "options": [
+        "dyrektorem",
+        "reżyserem",
+        "aktorem"
+       ],
+       "answer": "reżyserem"
+      },
+      {
+       "id": "2",
+       "options": [
+        "wrócił",
+        "wyjechał",
+        "poszedł"
+       ],
+       "answer": "wyjechał"
+      },
+      {
+       "id": "3",
+       "options": [
+        "dużo",
+        "nic",
+        "długo"
+       ],
+       "answer": "dużo"
+      },
+      {
+       "id": "4",
+       "options": [
+        "krótko",
+        "mało",
+        "szybko"
+       ],
+       "answer": "szybko"
+      },
+      {
+       "id": "5",
+       "options": [
+        "zrobił",
+        "wykorzystał",
+        "wymyślił"
+       ],
+       "answer": "wykorzystał"
+      },
+      {
+       "id": "6",
+       "options": [
+        "Temat",
+        "Tytuł",
+        "Plan"
+       ],
+       "answer": "Temat"
+      },
+      {
+       "id": "7",
+       "options": [
+        "wołają",
+        "proszą",
+        "kłócą się"
+       ],
+       "answer": "kłócą się"
+      },
+      {
+       "id": "8",
+       "options": [
+        "fanami",
+        "ulubieńcami",
+        "adoratorami"
+       ],
+       "answer": "fanami"
+      },
+      {
+       "id": "9",
+       "options": [
+        "opinię",
+        "popularność",
+        "sławę"
+       ],
+       "answer": "popularność"
+      },
+      {
+       "id": "10",
+       "options": [
+        "regularnie",
+        "przypadkowo",
+        "czasowo"
+       ],
+       "answer": "regularnie"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grammar",
+   "title": "Poprawność gramatyczna",
+   "maxPoints": 30,
+   "timeMinutes": 45,
+   "taskCount": 4,
+   "tasks": [
+    {
+     "id": "g2",
+     "number": "II",
+     "type": "clozeBox",
+     "grading": "auto",
+     "instruction": "II. Proszę – zgodnie z przykładem – uzupełnić zdania wyrazami z ramki (spójniki). Uwaga! Jeden wyraz w ramce jest niepotrzebny.",
+     "pointsFormula": "5 x 0,5 p.",
+     "pointsPerItem": 0.5,
+     "maxPoints": 2.5,
+     "pdfPage": 16,
+     "source": "Na podstawie: https://www.medonet.pl/zdrowy-dom/zdrowy-sen,jak-zasnac-w-kilkadziesiat-sekund--to-genialny-trik-zolnierzy,artykul,55836898.html",
+     "wordBox": [
+      "dlaczego",
+      "że",
+      "który",
+      "lecz",
+      "jeśli",
+      "lub",
+      "a"
+     ],
+     "distractors": [
+      "dlaczego"
+     ],
+     "passage": "Masz wrażenie, {{ex}} więcej czasu zajmuje ci zasypianie niż sam sen? Budzisz się często w nocy, {{1}} rano jesteś zmęczony? Nie tylko ty masz taki kłopot, {{2}} także miliony ludzi na całym świecie. To wina stresu, {{3}} odczuwasz przez cały dzień. Nie zaśniesz, {{4}} wieczorem będziesz nadal myślał o swoich problemach. Lepiej wyłącz telefon, komputer i telewizor oraz weź ciepłą kąpiel {{5}} prysznic. Możesz też posłuchać cichej, spokojnej muzyki. To na pewno pomoże ci się zrelaksować.",
+     "blanks": [
+      {
+       "id": "ex",
+       "example": true,
+       "answer": "że"
+      },
+      {
+       "id": "1",
+       "answer": "a"
+      },
+      {
+       "id": "2",
+       "answer": "lecz"
+      },
+      {
+       "id": "3",
+       "answer": "który"
+      },
+      {
+       "id": "4",
+       "answer": "jeśli"
+      },
+      {
+       "id": "5",
+       "answer": "lub"
+      }
+     ]
+    },
+    {
+     "id": "g4",
+     "number": "IV",
+     "type": "clozeForm",
+     "grading": "auto+review",
+     "instruction": "IV. Proszę – zgodnie z przykładami – uzupełnić tekst poprawnymi formami wyrazów podanych w nawiasach (czas teraźniejszy i przyszły).",
+     "pointsFormula": "10 x 0,5 p.",
+     "pointsPerItem": 0.5,
+     "maxPoints": 5,
+     "pdfPage": 17,
+     "source": "Na podstawie: Matura czyli... jak nie dać się zwariować - Szkoła Maturzystów Łukasza Jarosińskiego (szkolamaturzystow.pl)",
+     "match": {
+      "ignoreCase": true,
+      "collapseSpace": true,
+      "stripChars": ".,;:!?…"
+     },
+     "passage": "Egzamin maturalny coraz bliżej. {{ex1}} on ogromny wpływ na przyszłość uczniów, bo od jego wyników {{ex2}} to, czy za kilka miesięcy wszyscy {{ex3}} na wymarzone kierunki studiów. Dlatego już teraz młodzi ludzie intensywnie {{1}}, jak dobrze przygotować się do egzaminu. Często oni {{2}} o radę nauczycieli albo {{3}} książki z testami przykładowymi. Moja córka jest bardzo zestresowana i dlatego ona {{4}} w tym tygodniu zapisać się na kurs przygotowawczy. Jednak ja {{5}} jej i innym uczniom:\n\n– Nie trzeba się martwić, tylko opracować dobry plan pracy. Gdy zaplanujecie naukę, to przez najbliższe miesiące {{6}} dobrze przygotowywać się do egzaminu. Ta strategia na pewno {{7}} was do rozpoczęcia systematycznego powtarzania, {{8}} wam poczucie spokoju. Dlatego w maju nikt nie {{9}} uczyć się w stresie od rana do wieczora na kilka dni przed egzaminem. Na pewno na maturę {{10}} dobrze przygotowani.",
+     "blanks": [
+      {
+       "id": "ex1",
+       "example": true,
+       "given": "mieć",
+       "answer": "Ma"
+      },
+      {
+       "id": "ex2",
+       "example": true,
+       "given": "zależeć",
+       "answer": "będzie zależało",
+       "accept": [
+        "będzie zależeć"
+       ]
+      },
+      {
+       "id": "ex3",
+       "example": true,
+       "given": "dostać się",
+       "answer": "dostaną się"
+      },
+      {
+       "id": "1",
+       "given": "zastanawiać się",
+       "answer": "zastanawiają się"
+      },
+      {
+       "id": "2",
+       "given": "prosić",
+       "answer": "proszą"
+      },
+      {
+       "id": "3",
+       "given": "kupować",
+       "answer": "kupują"
+      },
+      {
+       "id": "4",
+       "given": "chcieć",
+       "answer": "chce"
+      },
+      {
+       "id": "5",
+       "given": "tłumaczyć",
+       "answer": "tłumaczę"
+      },
+      {
+       "id": "6",
+       "given": "wy-móc",
+       "answer": "będziecie mogli"
+      },
+      {
+       "id": "7",
+       "given": "zmotywować",
+       "answer": "zmotywuje"
+      },
+      {
+       "id": "8",
+       "given": "zapewnić",
+       "answer": "zapewni"
+      },
+      {
+       "id": "9",
+       "given": "musieć",
+       "answer": "będzie musiał"
+      },
+      {
+       "id": "10",
+       "given": "wy – przyjść",
+       "answer": "przyjdziecie"
+      }
+     ],
+     "pdfNotes": [
+      "PDF prints the superscript '3' after '(zastanawiać się)' of item 1 — a typo in the original, ignore."
+     ]
+    },
+    {
+     "id": "g5",
+     "number": "V",
+     "type": "question",
+     "grading": "auto+review",
+     "instruction": "V. [SYNTH] Proszę zapytać o podkreśloną część zdania.",
+     "pointsFormula": "2 x 0,5 p.",
+     "pointsPerItem": 0.5,
+     "maxPoints": 1,
+     "match": {
+      "stripChars": "…?.!",
+      "ignoreCase": true
+     },
+     "example": {
+      "sentence": "Anna kupiła chleb.",
+      "underlined": "chleb",
+      "stem": "…………… kupiła Anna?",
+      "shortAnswer": "Chleb.",
+      "answer": "Co"
+     },
+     "items": [
+      {
+       "id": "g5.1",
+       "number": 1,
+       "sentence": "Robert zaraził się grypą od Stefana.",
+       "underlined": "grypą",
+       "stem": "…………… zaraził się Robert od Stefana?",
+       "shortAnswer": "Grypą.",
+       "answer": "Czym",
+       "accept": [
+        "Czym…?"
+       ]
+      },
+      {
+       "id": "g5.2",
+       "number": 2,
+       "sentence": "Wyjadę w lipcu.",
+       "underlined": "w lipcu",
+       "stem": "…………… wyjedziesz?",
+       "shortAnswer": "W lipcu.",
+       "answer": "Kiedy"
+      }
+     ]
+    },
+    {
+     "id": "g6",
+     "number": "VI",
+     "type": "transform",
+     "grading": "review",
+     "instruction": "VI. Proszę – zgodnie z przykładem – użyć wyrazu w nawiasie i przekształcić zdanie tak, by miało ten sam sens.",
+     "pointsFormula": "5 x 1 p.",
+     "pointsPerItem": 1,
+     "maxPoints": 5,
+     "pdfPage": 19,
+     "note": "Należy uznać wszystkie inne poprawne rozwiązania zgodne z poleceniem.",
+     "example": {
+      "id": "g6.ex",
+      "source": "Mój tata świetnie mówi po francusku.",
+      "hint": "zna",
+      "answer": "Mój tata świetnie zna francuski.",
+      "shown": true
+     },
+     "items": [
+      {
+       "id": "g6.1",
+       "number": 1,
+       "source": "Mateusz z zainteresowaniem przyglądał się kolorowym wystawom sklepów.",
+       "hint": "patrzył",
+       "answer": "Mateusz z zainteresowaniem patrzył na kolorowe wystawy sklepów.",
+       "rubric": "dodanie przyimka (0,25) + 2 transformacje (2 x 0,25) + brak transformacji (0,25)",
+       "rubricParts": [
+        {
+         "what": "dodanie przyimka",
+         "points": 0.25
+        },
+        {
+         "what": "2 transformacje",
+         "points": 0.5
+        },
+        {
+         "what": "brak transformacji",
+         "points": 0.25
+        }
+       ]
+      },
+      {
+       "id": "g6.2",
+       "number": 2,
+       "source": "Proszę ustawić ławki wzdłuż tamtej żółtej ściany.",
+       "hint": "pod",
+       "answer": "Proszę ustawić ławki pod tamtą żółtą ścianą.",
+       "rubric": "1 transformacja „ścianą” 0,5 p. + 2 transformacje (2 x 0,25)",
+       "rubricParts": [
+        {
+         "what": "transformacja „ścianą”",
+         "points": 0.5
+        },
+        {
+         "what": "2 transformacje",
+         "points": 0.5
+        }
+       ]
+      },
+      {
+       "id": "g6.3",
+       "number": 3,
+       "source": "Uczniów z mojej klasy nie stresuje egzamin pisemny.",
+       "hint": "nie boją się",
+       "answer": "Uczniowie z mojej klasy nie boją się egzaminu pisemnego.",
+       "rubric": "1 transformacja „uczniowie” 0,5 p. + 2 transformacje (2 x 0,25)",
+       "rubricParts": [
+        {
+         "what": "transformacja „uczniowie”",
+         "points": 0.5
+        },
+        {
+         "what": "2 transformacje",
+         "points": 0.5
+        }
+       ]
+      },
+      {
+       "id": "g6.4",
+       "number": 4,
+       "source": "Kto jest autorem tego opowiadania?",
+       "hint": "napisał",
+       "answer": "Kto napisał to opowiadanie?",
+       "rubric": "2 transformacje (2 x 0,5)",
+       "rubricParts": [
+        {
+         "what": "2 transformacje",
+         "points": 1
+        }
+       ]
+      },
+      {
+       "id": "g6.5",
+       "number": 5,
+       "source": "Mój syn jest starszym programistą.",
+       "hint": "jako",
+       "answer": "Mój syn pracuje jako starszy programista.",
+       "rubric": "dodanie czasownika 0,5 p. + 2 transformacje (2 x 0,25)",
+       "rubricParts": [
+        {
+         "what": "dodanie czasownika",
+         "points": 0.5
+        },
+        {
+         "what": "2 transformacje",
+         "points": 0.5
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "Pisanie",
+   "maxPoints": 30,
+   "timeMinutes": 75,
+   "taskCount": 1,
+   "tasks": [
+    {
+     "id": "w",
+     "number": null,
+     "type": "writing",
+     "grading": "review",
+     "pdfPages": [
+      23,
+      29
+     ],
+     "instruction": "Uwaga! Proszę wybrać tylko jeden z zestawów i wykonać obydwa zadania (a i b) z tego samego zestawu.",
+     "timeMinutes": 75,
+     "maxPoints": 30,
+     "choose": {
+      "sets": 1,
+      "of": 3,
+      "doBoth": [
+       "a",
+       "b"
+      ]
+     },
+     "sets": [
+      {
+       "id": "I",
+       "parts": [
+        {
+         "id": "a",
+         "genre": "ogłoszenie",
+         "wordTarget": 30,
+         "prompt": "Robi Pani/Pan remont kuchni i chce Pani/Pan sprzedać używane meble oraz sprzęty kuchenne. Proszę napisać ogłoszenie, które zamieści Pani/Pan w internecie."
+        },
+        {
+         "id": "b",
+         "genre": "opowiadanie",
+         "wordTarget": 170,
+         "prompt": "Proszę napisać opowiadanie, które zaczyna się od zdania: „Tego dnia padał deszcz.”",
+         "startsWith": "Tego dnia padał deszcz."
+        }
+       ]
+      },
+      {
+       "id": "II",
+       "parts": [
+        {
+         "id": "a",
+         "genre": "pozdrowienia",
+         "wordTarget": 35,
+         "prompt": "Przeprowadziła się Pani / Przeprowadził się Pan do innego miasta w Polsce. Proszę napisać pozdrowienia z nowego miejsca do polskiej koleżanki/polskiego kolegi."
+        },
+        {
+         "id": "b",
+         "genre": "sprawozdanie",
+         "wordTarget": 165,
+         "prompt": "Była Pani / Był Pan na otwarciu nowego centrum sportowego „Wszystko dla Zdrowia”, w którym znajdują się sklepy i sale do ćwiczeń. Proszę napisać sprawozdanie (relację) z tego wydarzenia do polskiej gazety, z którą Pani/Pan współpracuje."
+        }
+       ]
+      },
+      {
+       "id": "III",
+       "parts": [
+        {
+         "id": "a",
+         "genre": "życzenia",
+         "wordTarget": 30,
+         "prompt": "Dyrektorka firmy, w której Pani/Pan pracuje, wychodzi za mąż. Proszę napisać życzenia z tej okazji."
+        },
+        {
+         "id": "b",
+         "genre": "esej",
+         "wordTarget": 170,
+         "prompt": "Proszę napisać esej (wypracowanie szkolne) pt. „Zawsze znajdę czas na moje hobby”.",
+         "title": "Zawsze znajdę czas na moje hobby"
+        }
+       ]
+      }
+     ],
+     "wordCount": {
+      "targetKind": "approx",
+      "warnBelowRatio": 0.8,
+      "note": "Source gives only the target and a '% of required words' field; 0.8 is an app convention, not official."
+     },
+     "rubric": {
+      "source": "KARTA OCENY WYPOWIEDZI PISEMNEJ (test.pdf p.29)",
+      "perPartMax": 15,
+      "totalMax": 30,
+      "criteria": [
+       {
+        "id": "task",
+        "name": "wykonanie zadania (treść, forma, objętość)",
+        "max": 5,
+        "sub": [
+         {
+          "id": "t",
+          "name": "treść",
+          "max": 2.5
+         },
+         {
+          "id": "f",
+          "name": "forma",
+          "max": 1.5
+         },
+         {
+          "id": "o",
+          "name": "objętość",
+          "max": 1
+         }
+        ]
+       },
+       {
+        "id": "means",
+        "name": "środki językowe (leksyka i frazeologia, składnia, styl)",
+        "max": 5,
+        "sub": [
+         {
+          "id": "l",
+          "name": "leksyka i frazeologia",
+          "max": 2
+         },
+         {
+          "id": "s",
+          "name": "składnia",
+          "max": 2
+         },
+         {
+          "id": "st",
+          "name": "styl",
+          "max": 1
+         }
+        ]
+       },
+       {
+        "id": "correct",
+        "name": "poprawność językowa (gramatyka, ortografia i interpunkcja)",
+        "max": 5,
+        "sub": [
+         {
+          "id": "g",
+          "name": "gramatyka",
+          "max": 3.5
+         },
+         {
+          "id": "or",
+          "name": "ortografia i interpunkcja",
+          "max": 1.5
+         }
+        ]
+       }
+      ],
+      "errorCounts": [
+       "gramatyczne",
+       "leksykalne",
+       "stylistyczne",
+       "ortograficzne+interpunkcyjne",
+       "inne"
+      ],
+      "extraFields": [
+       "recenzja"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+};

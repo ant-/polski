@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Polski B1 – ćwiczenia do egzaminu</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="app/style.css">
+<script src="data/manifest.js" onerror="window.EXAM_INDEX=window.EXAM_INDEX||[]"></script>
+</head>
+<body>
+<header id="topbar">
+  <a class="brand" href="#/">Polski B1</a>
+  <span id="topbar-title"></span>
+  <details class="menu" id="menu">
+    <summary>Ustawienia</summary>
+    <div class="menu-panel">
+      <label><input type="checkbox" id="opt-lenient"> Łagodne diakrytyki (uznaj „a” za „ą” itp.)</label>
+      <label><input type="checkbox" id="opt-timer"> Pokaż zegar sekcji</label>
+      <hr>
+      <button type="button" id="btn-backup">Eksportuj cały postęp (kopia)</button>
+      <button type="button" id="btn-import">Importuj kopię…</button>
+      <input type="file" id="file-import" accept="application/json,.json" hidden>
+    </div>
+  </details>
+</header>
+<main id="app"><p class="muted">Ładowanie…</p></main>
+<div id="player" hidden>
+  <audio id="audio" preload="metadata"></audio>
+  <span id="player-label" class="muted">Nagranie</span>
+  <button type="button" id="player-stop">■ Stop</button>
+  <span id="exam-ui" hidden>
+    <button type="button" id="exam-start" class="primary">▶ Rozpocznij nagranie</button>
+    <button type="button" id="exam-abort" hidden>Przerwij</button>
+    <progress id="exam-progress" value="0" max="1" aria-label="Postęp nagrania"></progress>
+    <span id="exam-time" class="muted">0:00 / 0:00</span>
+  </span>
+  <label class="exam-toggle"><input type="checkbox" id="exam-mode"> Tryb egzaminu</label>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app/app.js"></script>
+</body>
+</html>
